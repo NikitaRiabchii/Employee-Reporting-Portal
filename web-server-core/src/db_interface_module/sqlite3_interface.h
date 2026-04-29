@@ -1,0 +1,1 @@
+//here will be plased delarations of spetial commands application-based for my web-core
