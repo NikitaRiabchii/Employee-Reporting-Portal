@@ -1,3 +1,6 @@
+
+
+
 /*
 ** This is the amalgamated source code to the "sqlite3" or "sqlite3.exe"
 ** command-line shell (CLI) for SQLite.  This file is automatically

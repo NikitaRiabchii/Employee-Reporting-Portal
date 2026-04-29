@@ -1,2 +1,9 @@
 #include <stdio.h>
-int main(){return 0;}
+#include "./sqlite_db/sqlite3.h"
+
+int main(){
+    
+
+
+
+    return 0;}
