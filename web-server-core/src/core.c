@@ -1,6 +1,6 @@
 #include <stdio.h>
 //#include "./sqlite_db/sqlite3.h"
-#include "../common/pesel_check.c"
+#include "../common/validation_module/validation.h"
 
 int main(){
         int valid_pesel[] = {0, 5, 2, 1, 1, 5, 1, 0, 7, 5, 7};

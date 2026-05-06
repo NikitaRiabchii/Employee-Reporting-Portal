@@ -1,8 +1,5 @@
-/**
- * Validates a PESEL number
- * @param pesel Pointer to array of 11 integers (each 0-9)
- * @return The original PESEL as unsigned long long if valid, 0 if invalid
- */
+#include "validation.h"
+
 unsigned long long check_pesel(const int *pesel) {
     // Check if pesel is NULL
     if (pesel == NULL) {
@@ -97,4 +94,9 @@ unsigned long long check_pesel(const int *pesel) {
     }
     
     return result;
+}
+
+unsigned long long check_identification_number(const int *id_number) {
+    //here will be implementation of check for identification number based on rules of this number, but now haven't develop it, I will return 0 for now.
+    return 0;
 }
